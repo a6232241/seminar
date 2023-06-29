@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter1</title>
+  <script type="text/javascript" src="./callStack.js"></script>
+</head>
+
+<body>
+  <pre>
+    function foo() {
+      console.log('Hi, I am foo');
+    }
+    
+    function bar() {
+      foo();
+      console.log('Hi. I am bar');
+    }
+    
+    bar();
+  </pre>
+</body>
+
+</html>
